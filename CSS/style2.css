@@ -1,0 +1,35 @@
+body{
+    background-color: bisque;
+}
+.client p{
+    column-count: 4;
+    column-rule: 2px solid red;
+    column-rule-style: double;
+    border-style: double;
+    width:1300px;
+    height: auto;
+}
+/*.paragraph p{
+    column-count: 0;
+    width:1400px;
+    height: 130px;
+    color:black;
+}*/
+/*.client{
+    background-color: brown;
+    color:black;
+    font-size:14px;
+    font-weight: 600;
+    width:1400px;
+    height: 600px;
+    padding:10px;
+    margin: 10px;
+    
+
+}
+*/
+::selection{
+    background-color: azure;
+    color:blue;
+
+}

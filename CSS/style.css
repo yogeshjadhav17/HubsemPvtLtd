@@ -1,0 +1,607 @@
+body{
+    background-color: white;
+    margin:0px;
+    padding:0px;
+    font-family: Verdana;
+}
+
+.backgroundbanner{
+    background-color: steelblue;
+    /*background-size:cover;
+    background-position: center;*/
+    width:1400px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nav-list{
+    padding:15px;
+    margin:15px;
+    display:flex;
+    color:black;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding:17px;
+}
+.nav-list li{
+    font-size:18px;
+    margin:0px;
+   display: flex;
+   /*flex-direction: column-reverse;
+   justify-content: flex-start;*/
+    padding:17px;
+    list-style-type: none;
+    /*float: right;*/
+}
+.nav-list li:hover{
+    background-color: red;
+    color:white;
+    cursor:pointer;
+    
+}
+
+.bannerpara {
+    background-color:blue;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: row;
+    width:1400px;
+    height:800px;
+    line-height: 20px;
+    text-transform: capitalize;
+    position: relative;    
+}
+
+.form{
+    width:400px;
+    height: 400px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+/*.bannerpara p{
+    color:black;
+   
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    display: flex;
+    padding:18px;
+    margin:20px;
+    
+}*/
+.bannerpara li{
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    padding:18px;
+    margin:10px;
+    font-size:15px;
+    color:sandybrown;
+}
+
+
+.connect{
+    display:flex;
+    width:200px;
+    height: 400px;
+    color:black;
+    font-weight: 600;
+    text-transform: capitalize;
+    flex-direction: column;
+    font-size:14px;
+    border:100px;
+    padding:20px;
+    float:right;
+   
+
+
+}
+
+#d1{
+    width:400px;
+    height:120px;
+    color:black;
+    background-color: orange;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text], select {
+    width:200px;     /* Give Width size  */
+    padding:6px;     /*Some padding */
+    border:1px solid lightcyan;    /* Lightcyan border*/
+    border-radius:2px;    /* Rounded borders*/
+    box-sizing: border-box;    /* Make sure that padding and width stays in place */
+    margin-top:3px;     /* Add a top margin */
+    margin-bottom:12px;  /* Bottom Margin*/
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color:azure;
+    color:black;
+    padding:8px 8px;
+    border-radius:1px;
+    cursor:pointer;
+    text-align: right;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover{
+    background-color: darkgreen;
+}
+
+/* Add some padding around the form */
+
+.container{
+    border-radius:3px;
+    padding:13px;
+}
+
+
+.button{
+    /*background-color: lightblue;*/
+    color:black;
+    font-size:17px;
+    font-weight: bold;
+    text-align: center;
+    padding: 18px;
+    border-radius: 1px solid grey;
+}
+
+.Image{
+    width:200px;
+    height:200px;
+    
+}
+.bulb{
+    width:1400px;
+    height: 400px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+}
+.button:hover{
+    background-color: green;
+    cursor:pointer;
+}
+
+.hubsem{
+    background-color: wheat;
+    color:black;
+    font-size:17px;
+    font-weight: 700;
+    line-height: 20px;
+    width:1400px;
+    height: 480px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button2{
+    background-color: blue;
+    color:black;
+    font-size:17px;
+    font-weight: bold;
+    text-align: right;
+    padding:18px;
+
+    border-radius: 1px solid grey;
+}
+.button1{
+    /*background-color: blue;
+    color:black;
+    font-size:17px;
+    font-weight: bold;
+    padding:18px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;*/
+
+    background-color: blue;
+    color:black;
+    font-size:17px;
+    font-weight: bold;
+    text-align: center;
+    padding:18px;
+
+    border-radius: 1px solid grey;
+}
+.button1:hover{
+    background-color: green;
+    cursor:pointer;
+    text-decoration: underline;
+}
+.About{
+    background-color: beige;
+    color:black;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: capitalize;
+    width:1400px;
+    height: 500px;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+}
+.Aboutus{
+    background-color: beige;
+    color:black;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: capitalize;
+    width:1400px;
+    height: 300px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.about{
+    width:500px;
+    height:400px;
+    color:black;
+    font-size: 17px;
+    text-transform: capitalize;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about li{
+    list-style-type: circle;
+    text-decoration: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.image{
+    width:700px;
+    height:400px;
+    display:flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.achievement{
+    color:black;
+    font-size:15px;
+    line-height: 13px;
+    text-transform: capitalize;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.client{
+    background-color: white;
+    color:black;
+    width:1400px;
+    height: 500px;
+    color:black;
+    font-size:15px;
+    font-weight: 600;
+    display:flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-content: space-between;
+   text-align: center;    
+}
+
+.client > div{
+    background-color: sandybrown;
+    color:black;
+    font-size:13px;
+    font-weight: 600;
+    width:200px;
+    height:300px;
+    padding:20px;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: center;
+    border-style:groove;
+    border:1px solid grey;
+    position: relative;
+}
+.achievement li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.important{
+    color:black;
+    font-size:15px;
+    line-height: 17px;
+    text-transform: capitalize;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width:1400px;
+    height:450px;
+}
+
+
+
+/*.client2{
+    width:300px;
+    height: 300px;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 600;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0px;
+    padding:0px;
+    border-style:double;
+}
+
+.client3{
+    width:300px;
+    height: 300px;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 600;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0px;
+    padding:0px;
+    border-style:double;
+
+}*/
+
+
+#heading{
+   
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.paragraph{
+    font-size:14px;
+font-weight: 700;
+text-transform: capitalize;
+line-height: 18px;
+text-align: center;
+width:1400px;
+height: 100px;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+.service{
+    background-color: antiquewhite;
+    color:black;
+    font-size:16px;
+    font-weight: 600;
+    width:1400px;
+    height:800px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+}
+.service > div {
+    background-color: sandybrown;
+    margin:10px;
+    width:400px;
+    height: 240px;
+    padding:20px;
+    font-size:13px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-style: double;
+}
+
+
+
+/*.service1{
+    color:black;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: lightgoldenrodyellow;
+
+    width:400px;
+    height:220px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.service2{
+    color:black;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: lightgoldenrodyellow;
+
+    width:400px;
+    height:220px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+
+.service3{
+    color:black;
+    background-color: lightgoldenrodyellow;
+    font-size: 14px;
+    font-weight: 600;
+    width:400px;
+    height:220px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+
+.service4{
+    color:black;
+    background-color: lightgoldenrodyellow;
+
+    font-size: 14px;
+    font-weight: 600;
+    width:400px;
+    height:220px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+
+.service5{
+    color:black;
+    font-size: 14px;
+    background-color: lightgoldenrodyellow;
+
+    font-weight: 600;
+    width:400px;
+    height:220px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+
+.service6{
+    color:black;
+    font-size: 14px;
+    font-weight: 600;
+    width:400px;
+    background-color: lightgoldenrodyellow;
+
+    height:220px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around ;
+
+}*/
+
+.background {
+    /*background-color: navy;
+    color:white;
+    font-size:16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    width:1400px;
+    height:900px;
+    display:flex;*/
+
+    background-color:blue;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    
+    width:1400px;
+    height:700px;
+    line-height: 20px;
+    text-transform: capitalize;
+    position: relative;    
+}
+.background > div{
+    margin:10px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding:20px;
+    font-size:15px;
+    width:600px;
+    height:650px;
+    flex-wrap: wrap;
+    font-weight: 700;
+    color:sandybrown;
+    
+}
+.consultant{
+   width:450px;
+    height:500px;
+    font-weight: 700;
+    font-size:15px;
+    text-transform: capitalize;
+  flex-direction: row;
+  justify-content: flex-start;
+  color:sandybrown;
+
+ 
+}
+
+.consultant li{
+    /*list-style-type: style num;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;*/
+
+    list-style-type: decimal;
+    display:flex;
+    flex-direction: column;
+    padding:18px;
+    margin:10px;
+    font-size:15px;
+    color:sandybrown;
+}
+
+/*.Contact{
+    width:500px;
+    height:600px;
+    font-weight: 700;
+    font-size:17px;
+    text-transform: capitalize;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 14px;
+}
+.touch{
+   display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size:14px;
+
+    display:flex;
+    width:500px;
+    height: 600px;
+    color:black;
+    font-weight: 600;
+    text-transform: capitalize;
+    flex-direction: ;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    font-size:14px;
+   
+}
+*/
